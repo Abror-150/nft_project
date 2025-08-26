@@ -1,37 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 NFT Auction Marketplace
 
-## Getting Started
+**NFT Auction Marketplace** — bu sizning o‘z **NFTlaringizni yaratib**, ularni **auksion orqali sotish** imkonini beradigan platforma.  
+Foydalanuvchilar NFT yaratishi, sotuvga qo‘yishi va boshqa NFT’lar uchun savdolarda ishtirok etishi mumkin.  
 
-First, run the development server:
+---
+
+## 🚀 Texnologiyalar (Stack)
+
+- **Frontend Framework:** Next.js (React)  
+- **Blockchain:** Ethereum / Polygon (Ethers.js yoki Web3.js bilan)  
+- **Smart Contracts:** Solidity (ERC-721, ERC-1155)  
+- **Wallet Integration:** MetaMask  
+- **UI Library:** Tailwind CSS / Ant Design  
+- **Backend API:** Next.js API Routes (yoki alohida Node.js backend)  
+
+---
+
+## 📌 Asosiy funksiyalar
+
+- 🖼️ **NFT yaratish (Minting)** – foydalanuvchi o‘z rasmini / faylini NFT ga aylantirishi mumkin.  
+- 🛒 **Auksion tizimi** – NFT’lar auksionga qo‘yiladi, foydalanuvchilar narx taklif qilishadi.  
+- 💸 **Sotib olish & sotish** – NFT’ni darhol sotib olish yoki auksionda yutib olish imkoniyati.  
+- 👤 **Wallet integratsiyasi** – foydalanuvchi MetaMask orqali tizimga ulanadi.  
+- 📂 **Mening NFTlarim** – foydalanuvchi o‘ziga tegishli NFT’larni ko‘rishi va boshqarishi mumkin.  
+- 📊 **Marketplace** – barcha faol NFT’larni ko‘rish, filtrlash va izlash.  
+
+---
+
+## ⚙️ O‘rnatish va ishga tushirish
 
 ```bash
+# Reponi clone qiling
+git clone https://github.com/abror-150/nft_project.git
+
+# Loyihaga kiring
+cd nft-auction
+
+# Paketlarni o‘rnating
+npm install
+
+
+# Loyihani ishga tushiring
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# nft_project
